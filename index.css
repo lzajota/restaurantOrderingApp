@@ -3,16 +3,18 @@ body {
     padding: 0;
     font-family: 'Sofia Sans Semi Condensed', sans-serif;
     background: #F5F5F5;
-} 
+}
 
 .container {
     width: 600px;
-    min-height: 1161px;
+    min-height: 100vh;
     margin: auto auto;
     background: white
 }
 
-h1, h3, p{
+h1,
+h3,
+p {
     padding: 0px;
     margin: 0px;
 }
@@ -31,6 +33,7 @@ header {
     padding: 45px;
     color: #FFFFFF;
 }
+
 main {
     padding: 0 46px
 }
@@ -58,13 +61,14 @@ main {
     margin-left: 31px;
 }
 
-.item-name, .item-price {
+.item-name,
+.item-price {
     font-size: 28px;
     line-height: 50px;
     color: #000000;
 }
 
-.item-ingredients{
+.item-ingredients {
     font-size: 16px;
     color: #8B8B8B;
 }
@@ -86,7 +90,7 @@ main {
 
 /* CHECKOUT */
 
-.checkout{
+.checkout {
     font-size: 28px;
 }
 
@@ -95,23 +99,23 @@ main {
     margin: 20px;
 }
 
-.checkout-items-container{
+.checkout-items-container {
     display: flex;
     margin-bottom: 5px;
     justify-content: center;
     text-align: center;
 }
 
-.checkout-remove-btn{
+.checkout-remove-btn {
     border: none;
-    background-color: transparent;    
+    background-color: transparent;
     color: #bbb;
     font-size: 0.75rem;
     transform: translateY(3px);
     cursor: pointer;
 }
 
-.checkout-price{
+.checkout-price {
     margin-left: auto;
     margin-top: 0;
 }
@@ -156,8 +160,8 @@ main {
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
-    
+    transform: translate(-50%, -50%);
+
     display: none;
 }
 
@@ -190,28 +194,28 @@ main {
     width: 100%;
 }
 
-#modal-form{
+#modal-form {
     display: flex;
     flex-direction: column;
     margin-top: 2.5em;
     padding: 0 1em;
 }
 
-.close-modal-btn-container{
+.close-modal-btn-container {
     text-align: right;
     margin: 5px 5px 0px 0px;
-    
+
 }
 
 .modal-close-btn {
-  font-size: 18px;
-  font-weight: semi-bold;
-  background-color: transparent;
-  border: 1px solid transparent;
+    font-size: 18px;
+    font-weight: semi-bold;
+    background-color: transparent;
+    border: 1px solid transparent;
 }
 
 .modal-close-btn:hover,
-.modal-close-btn:active{
+.modal-close-btn:active {
     color: red;
     cursor: pointer;
 }
